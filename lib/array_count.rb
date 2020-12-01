@@ -1,6 +1,6 @@
 def count_strings(array)
- array.count { |x| x == "hello"}
- array.count { |x| x == "world"}
+ array.count do |element|
+element.string
 end
 
 def count_empty_strings(array)
