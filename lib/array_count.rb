@@ -4,7 +4,7 @@
 #end
 
 def count_empty_strings(array)
-array = [ "", "Hello", 4, [], "", "" ]
+[ "", "Hello", 4, [], "", "" ]
 array.count {|x| x == ""}
 end
 
