@@ -5,7 +5,7 @@
 #end
 
 def count_empty_strings(array)
-[ "", "Hello", 4, [], "", "" ].count {|x| x == ""}
+[ "", "Hello", 4, [], "", "" ].count {|x| x == []}
 end
 
 
