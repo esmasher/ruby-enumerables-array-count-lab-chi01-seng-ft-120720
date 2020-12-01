@@ -1,5 +1,4 @@
 def count_strings(array)
- [1, "hello", [], 5.01, "world", :name, { a: 1 }]
  array.count { |x| x == "hello"}
  array.count { |x| x == "world"}
 end
