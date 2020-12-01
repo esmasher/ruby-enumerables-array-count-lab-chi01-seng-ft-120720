@@ -1,6 +1,6 @@
 def count_strings(array)
  [1, "hello", [], 5.01, "world", :name, { a: 1 }]
- array.count { |x| x == "hello", "world"}
+ array.count { |x| x == "hello"}
 end
 
 def count_empty_strings(array)
